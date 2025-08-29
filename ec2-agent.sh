@@ -24,3 +24,6 @@ sudo systemctl enable codedeploy-agent
 
 # Check agent status
 sudo service codedeploy-agent status
+sudo apt install -y apache2
+sudo systemctl start apache2
+sudo systemctl enable apache2
